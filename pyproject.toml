@@ -1,0 +1,20 @@
+[project]
+name = "playstation_digital_system"
+authors = [
+    { name = "John Kitheka", email = "nzambakitheka@gmail.com"}
+]
+description = "This is a prodigy of an accounting system but specifically for Playstation or Cyber Cafe Businesses. Combined with ERPNEXT financial reports; its a fully fledged Accounting solution for such businesses."
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # "frappe~=15.0.0" # Installed and managed by bench.
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+# These dependencies are only installed when developer mode is enabled
+[tool.bench.dev-dependencies]
+# package_name = "~=1.1.0"
