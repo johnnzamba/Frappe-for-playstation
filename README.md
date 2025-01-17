@@ -1,10 +1,3 @@
-## 
-
-This is a prodigy of an accounting system but specifically for Playstation or Cyber Cafe Businesses. Combined with ERPNEXT financial reports; its a fully fledged Accounting solution for such businesses.
-
-#### License
-
-mit
 
 # Frappe for Playstation
 
@@ -21,7 +14,7 @@ This comprehensive business management system is specifically designed for Gamin
 
 [![Codecov](https://codecov.io/github/matthewhudson/words/branch/main/graph/badge.svg?token=oxazfuInJ9)](https://app.codecov.io/gh/johnnzamba/Frappe-for-playstation)
 
-### Actual functionality
+### Add Games to Play
 
 <a href="https://64.media.tumblr.com/4d779343ca155e82a7568c08e0fb85e5/4b06d63e2f201864-73/s1280x1920/72e8b8b1a4601313510b9c8fb92c73eaa8caa50a.pnj"><img src="https://64.media.tumblr.com/4d779343ca155e82a7568c08e0fb85e5/4b06d63e2f201864-73/s1280x1920/72e8b8b1a4601313510b9c8fb92c73eaa8caa50a.pnj"/></a>
 <br>
@@ -67,7 +60,8 @@ This comprehensive business management system is specifically designed for Gamin
 
 ## Installation
 
-For Starters ensure that Frappe ["https://github.com/frappe"] is installed; since we are using the framework for the Application. Additionally ensure that ERPNEXT["https://github.com/frappe"] for concise accounting.
+For starters, ensure that [Frappe](https://github.com/frappe) is installed, as we are using the framework for the application. Additionally, ensure that [ERPNext](https://github.com/frappe/erpnext) is installed for concise accounting.
+
 
 ```bash
 git clone https://github.com/johnnzamba/Frappe-for-playstation.git
@@ -95,6 +89,7 @@ bench start
 ```
 
 Please Note that some in-app functionalities can be modified under Settings.
+
 
 ## Acknowledgement
 
