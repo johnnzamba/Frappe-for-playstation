@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-16 02:07:38.119123",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "floor_plan",
+  "section_break_ldyw",
+  "custom_custom_logs",
+  "custom_register_open"
+ ],
+ "fields": [
+  {
+   "fieldname": "floor_plan",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "section_break_ldyw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "custom_custom_logs",
+   "fieldtype": "Text",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_register_open",
+   "fieldtype": "Check",
+   "hidden": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-12-16 02:09:19.364944",
+ "modified_by": "Administrator",
+ "module": "Frappe Playstation Digital System",
+ "name": "Caffe",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

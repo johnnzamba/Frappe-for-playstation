@@ -51,7 +51,8 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "playstation_digital_system/public/icons.svg"
+app_include_icons = "/assets/playstation_digital_system/icons.svg"
+
 
 # Home Pages
 # ----------
@@ -132,10 +133,18 @@ app_license = "mit"
 # override_doctype_class = {
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
-
+scheduler_events = {
+    "all": [
+        "playstation_digital_system.frappe_playstation_digital_system.doctype.caffe_settings.caffe_settings.send_daily_sales_report",
+        "playstation_digital_system.frappe_playstation_digital_system.doctype.caffe_settings.caffe_settings.send_daily_session_logs_report"
+    ]
+}
 # Document Events
 # ---------------
 # Hook on document methods and events
+app_include_js = [
+    "playstation_digital_system/public/js/caffe.js"
+]
 
 # doc_events = {
 # 	"*": {
@@ -143,6 +152,12 @@ app_license = "mit"
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
 # 	}
+# }
+
+# doc_events = {
+#     "Caffe": {
+#         "on_update": "playstation_digital_system.frappe_playstation_digital_system.doctype.caffe.caffe.on_update",
+#     }
 # }
 
 # Scheduled Tasks

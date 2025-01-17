@@ -1,0 +1,77 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"vYS06Nl-rr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Frappe For PS</span>\",\"col\":12}},{\"id\":\"l2YVz-GJWW\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Games\",\"col\":3}},{\"id\":\"cnd5M_yl2x\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Game Space\",\"col\":3}},{\"id\":\"d5OYrr9msl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gaming Session\",\"col\":3}},{\"id\":\"EghJh-jM-l\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Caffe \",\"col\":3}},{\"id\":\"bznzPw4xyT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Caffe Settings\",\"col\":3}},{\"id\":\"tWWyFtXHSj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mpesa Transactions\",\"col\":3}}]",
+ "creation": "2025-01-17 19:19:40.693703",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-rank",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Frappe For PS",
+ "links": [],
+ "modified": "2025-01-17 20:36:02.121639",
+ "modified_by": "Administrator",
+ "module": "Frappe Playstation Digital System",
+ "name": "Frappe For PS",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Games",
+   "link_to": "Games",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gaming Session",
+   "link_to": "Game Session",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Caffe ",
+   "link_to": "Caffe",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "format": "{}occupied",
+   "label": "Game Space",
+   "link_to": "Game Space",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Caffe Settings",
+   "link_to": "Caffe Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Mpesa Transactions",
+   "link_to": "Mpesa Transactions",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Frappe For PS"
+}

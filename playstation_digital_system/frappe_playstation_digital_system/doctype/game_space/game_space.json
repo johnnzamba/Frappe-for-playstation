@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-07 17:35:41.664477",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_vfh2",
+  "amended_from",
+  "tv_type",
+  "game_space_id",
+  "playstation_type",
+  "created_on",
+  "occupied"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_vfh2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Game Space",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "tv_type",
+   "fieldtype": "Data",
+   "label": "TV Type"
+  },
+  {
+   "fieldname": "game_space_id",
+   "fieldtype": "Data",
+   "label": "Game Space ID"
+  },
+  {
+   "default": "PS4",
+   "fieldname": "playstation_type",
+   "fieldtype": "Select",
+   "label": "Playstation Type",
+   "options": "PS3\nPS4\nPS5"
+  },
+  {
+   "fieldname": "created_on",
+   "fieldtype": "Datetime",
+   "label": "Created On"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Not Occupied",
+   "fieldname": "occupied",
+   "fieldtype": "Select",
+   "label": "Occupied Or Not",
+   "options": "Occupied\nNot Occupied"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-12-08 00:12:11.106645",
+ "modified_by": "Administrator",
+ "module": "Frappe Playstation Digital System",
+ "name": "Game Space",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

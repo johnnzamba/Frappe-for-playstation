@@ -1,0 +1,96 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-07 23:57:09.724121",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_6qgw",
+  "amended_from",
+  "game_space_selected",
+  "game_played",
+  "created_by",
+  "column_break_toal",
+  "session_started_at",
+  "session_ended_at",
+  "duration"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_6qgw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Game Session",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "game_space_selected",
+   "fieldtype": "Link",
+   "label": "Game Space Selected",
+   "options": "Game Space"
+  },
+  {
+   "fieldname": "game_played",
+   "fieldtype": "Link",
+   "label": "Game Played",
+   "options": "Games"
+  },
+  {
+   "fieldname": "created_by",
+   "fieldtype": "Link",
+   "label": "Created By",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_toal",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "session_started_at",
+   "fieldtype": "Datetime",
+   "label": "Session Started At"
+  },
+  {
+   "fieldname": "session_ended_at",
+   "fieldtype": "Datetime",
+   "label": "Session Ended At"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Read Only",
+   "label": "Duration"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-08 00:01:46.816113",
+ "modified_by": "Administrator",
+ "module": "Frappe Playstation Digital System",
+ "name": "Game Session",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

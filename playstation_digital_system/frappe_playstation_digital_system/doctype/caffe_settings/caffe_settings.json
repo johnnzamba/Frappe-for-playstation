@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-15 22:42:21.551877",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "automatic_closing_of_register",
+  "start_time",
+  "end_time",
+  "auto_email_daily_sales_reports",
+  "specific_emails",
+  "auto_email_daily_session_logs_reports",
+  "specific_addresses",
+  "integrate_sms_for_promo_services",
+  "sms_instructions",
+  "enable_error_reporting"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "description": "Disable to continue with manual closing of Daily Sales Register",
+   "fieldname": "automatic_closing_of_register",
+   "fieldtype": "Check",
+   "label": "Automatic Closing of Register?"
+  },
+  {
+   "description": "Define business opening time.",
+   "fieldname": "start_time",
+   "fieldtype": "Time",
+   "label": "Start Time"
+  },
+  {
+   "description": "Define business closing time.\n",
+   "fieldname": "end_time",
+   "fieldtype": "Time",
+   "label": "End Time"
+  },
+  {
+   "default": "0",
+   "fieldname": "auto_email_daily_sales_reports",
+   "fieldtype": "Check",
+   "label": "Auto email Daily Sales Reports?"
+  },
+  {
+   "description": "List emails with commas to be addressed. Example: 'janedoe@gmail.com', 'johndoe@gmail.com...",
+   "fieldname": "specific_emails",
+   "fieldtype": "Small Text",
+   "label": "Specific Emails"
+  },
+  {
+   "default": "0",
+   "fieldname": "auto_email_daily_session_logs_reports",
+   "fieldtype": "Check",
+   "label": "Auto email Daily Session Logs Reports?"
+  },
+  {
+   "description": "Use similar format specified in the latter above; for multiple emails.",
+   "fieldname": "specific_addresses",
+   "fieldtype": "Small Text",
+   "label": "Specific Addresses"
+  },
+  {
+   "default": "0",
+   "fieldname": "integrate_sms_for_promo_services",
+   "fieldtype": "Check",
+   "label": "Integrate SMS for promo services?"
+  },
+  {
+   "bold": 1,
+   "default": "Contact App Developer for SMS integration for Promo or Engagement Services.",
+   "fieldname": "sms_instructions",
+   "fieldtype": "Long Text",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "description": "This will enable error reporting as well as scheduled updates.",
+   "fieldname": "enable_error_reporting",
+   "fieldtype": "Check",
+   "label": "Enable Error Reporting"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-12-16 02:19:36.792232",
+ "modified_by": "Administrator",
+ "module": "Frappe Playstation Digital System",
+ "name": "Caffe Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

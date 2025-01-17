@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-09 20:50:52.329566",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_ngf7",
+  "amended_from",
+  "transactiontype",
+  "transid",
+  "transtime",
+  "transamount",
+  "businessshortcode",
+  "column_break_amaf",
+  "amount",
+  "billrefnumber",
+  "msisdn",
+  "firstname",
+  "middlename",
+  "lastname"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_ngf7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Mpesa Transactions",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "transactiontype",
+   "fieldtype": "Data",
+   "label": "transactiontype"
+  },
+  {
+   "fieldname": "transid",
+   "fieldtype": "Data",
+   "label": "transid"
+  },
+  {
+   "fieldname": "transtime",
+   "fieldtype": "Datetime",
+   "label": "transtime"
+  },
+  {
+   "fieldname": "transamount",
+   "fieldtype": "Currency",
+   "label": "transamount"
+  },
+  {
+   "fieldname": "businessshortcode",
+   "fieldtype": "Data",
+   "label": "businessshortcode"
+  },
+  {
+   "fieldname": "column_break_amaf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "amount"
+  },
+  {
+   "fieldname": "billrefnumber",
+   "fieldtype": "Data",
+   "label": "billrefnumber"
+  },
+  {
+   "fieldname": "msisdn",
+   "fieldtype": "Data",
+   "label": "msisdn"
+  },
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "label": "firstname"
+  },
+  {
+   "fieldname": "middlename",
+   "fieldtype": "Data",
+   "label": "middlename"
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "label": "lastname"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-09 20:54:39.038827",
+ "modified_by": "Administrator",
+ "module": "Frappe Playstation Digital System",
+ "name": "Mpesa Transactions",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
